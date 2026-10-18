@@ -1,0 +1,16 @@
+{
+  "name": "quickshare-cloud-main",
+  "version": "1.0.0",
+  "description": "A college Cloud Computing mini-project for QR-code-based file sharing with Google sign-in, account-scoped share management, analytics, expiry enforcement, revocation, and scheduled cleanup.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

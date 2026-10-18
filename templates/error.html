@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} · QuickShare Cloud{% endblock %}
+{% block content %}
+<section class="error-page">
+  <div class="error-illustration" aria-hidden="true"><span>!</span></div>
+  <div class="section-kicker">OOPS, A SMALL DETOUR</div>
+  <h1>{{ title }}</h1>
+  <p>{{ message }}</p>
+  <a class="btn btn-primary" href="{{ url_for('index') }}">Return to QuickShare <span class="btn-arrow" aria-hidden="true">↗</span></a>
+</section>
+{% endblock %}
